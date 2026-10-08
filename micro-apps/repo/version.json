@@ -8,7 +8,7 @@
   "source": {
     "branch": "main",
     "url": "https://git.yichamao.com/agent-platform/nuwax-repo-web.git",
-    "commit": "18ae973c890c699c678b086ad1da3b95275a3c86"
+    "commit": "5c676b85487f865cf7c5f72d9428b628b37f50f0"
   },
   "projectDir": ".",
   "workspaceMode": "project-workspace",
@@ -29,7 +29,7 @@
     ]
   },
   "adapter": {
-    "sha256": "e4b69ae7b7a7acd1796ec21e7ddade4ee5e6e5aaaec54d5a6d5eaa7d9a34f018",
+    "sha256": "0c50ab85127619463aa7720b7bcc3dff9d3195e7f82d9aba72bdba8e205caad5",
     "files": [
       "adapter.json",
       "adapter.patch",
@@ -50,5 +50,5 @@
     "qiankun": "2.10.17-beta.0",
     "@tiny-codes/vite-plugin-qiankun": "2.4.0"
   },
-  "builtAt": "2026-10-08T10:59:26.982Z"
+  "builtAt": "2026-10-08T12:12:26.885Z"
 }
