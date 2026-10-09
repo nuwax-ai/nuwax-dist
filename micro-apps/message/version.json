@@ -16,7 +16,7 @@
     "VITE_IM_AUTH_MODE": "platform"
   },
   "adapter": {
-    "sha256": "123e44a63ed23a53baba259a5225c2a253d07736d2c389021d9087059b1ca8dc",
+    "sha256": "63652cfed244f134977cc3065acf4eb12be13f32a8ea546ebc62fff7310aa229",
     "files": [
       "adapter.json",
       "adapter.patch",
@@ -36,5 +36,5 @@
     "qiankun": "2.10.17-beta.0",
     "@tiny-codes/vite-plugin-qiankun": "2.4.0"
   },
-  "builtAt": "2026-10-09T08:03:53.988Z"
+  "builtAt": "2026-10-09T12:10:48.544Z"
 }
