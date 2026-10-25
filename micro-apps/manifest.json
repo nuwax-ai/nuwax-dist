@@ -53,11 +53,10 @@
         "qiankun": "2.10.17-beta.0",
         "@tiny-codes/vite-plugin-qiankun": "2.4.0"
       },
-      "builtAt": "2026-10-23T12:24:28.226Z",
+      "builtAt": "2026-10-25T11:44:56.291Z",
       "cache": {
         "key": "5a5fc7b45f2b3cea6a71f1f93efd7837ff47a3c1c70e5809ec407ea82293fe60",
-        "hit": true,
-        "reusedAt": "2026-10-23T12:37:25.480Z"
+        "hit": false
       }
     },
     {
@@ -99,11 +98,10 @@
         "qiankun": "2.10.17-beta.0",
         "@tiny-codes/vite-plugin-qiankun": "2.4.0"
       },
-      "builtAt": "2026-10-23T12:25:17.460Z",
+      "builtAt": "2026-10-25T11:45:20.646Z",
       "cache": {
         "key": "e91da5c704bd4d5e6e8b32a0dc49ed42e82a8cf91d9390626da4b77e4a449dd4",
-        "hit": true,
-        "reusedAt": "2026-10-23T12:37:25.814Z"
+        "hit": false
       }
     }
   ]
