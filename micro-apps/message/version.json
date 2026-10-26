@@ -37,9 +37,10 @@
     "qiankun": "2.10.17-beta.0",
     "@tiny-codes/vite-plugin-qiankun": "2.4.0"
   },
-  "builtAt": "2026-10-26T11:03:45.797Z",
+  "builtAt": "2026-10-26T09:11:10.689Z",
   "cache": {
     "key": "e6d2c67a567d053e5941be3b1e028018a0b0e4c9215bfb2c9fa900d5a0042125",
-    "hit": false
+    "hit": true,
+    "reusedAt": "2026-10-26T16:10:30.997Z"
   }
 }
