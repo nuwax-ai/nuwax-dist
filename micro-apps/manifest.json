@@ -11,17 +11,17 @@
       "source": {
         "branch": "main",
         "url": "https://git.yichamao.com/agent-platform/nuwax-repo-web.git",
-        "commit": "c7035259b155d487071de9e2f346f70c74ba7a7b"
+        "commit": "db9f23a61e7f218873400cd9bf2ac3c1b258daeb"
       },
       "projectDir": ".",
       "workspaceMode": "project-workspace",
       "buildEnvironment": {},
       "typecheck": {
         "status": "matched-upstream-baseline",
-        "upstreamDiagnostics": 72,
-        "adapterDiagnostics": 72,
+        "upstreamDiagnostics": 68,
+        "adapterDiagnostics": 68,
         "newDiagnostics": 0,
-        "baselineSha256": "17fe10dde7fab16f72ec7e80d50621d88e216878fc1f8dbc2be3934609f5ca70",
+        "baselineSha256": "ef32dee08ff1523651f36df67b0130c2dd78fa85934c6151b3f4fd4f6c28cb59",
         "command": [
           "exec",
           "tsc",
@@ -32,7 +32,7 @@
         ]
       },
       "adapter": {
-        "sha256": "faf7478279b959acdf174b578592bf8e427244c5c2339f986767b8272377de94",
+        "sha256": "ba744f25b967a4070ddf479e24586b4a20c95ebb4c272c936b10428a771c6c95",
         "files": [
           "adapter.json",
           "adapter.patch",
@@ -53,10 +53,11 @@
         "qiankun": "2.10.17-beta.0",
         "@tiny-codes/vite-plugin-qiankun": "2.4.0"
       },
-      "builtAt": "2026-10-25T11:44:56.291Z",
+      "builtAt": "2026-10-26T09:09:25.798Z",
       "cache": {
-        "key": "5a5fc7b45f2b3cea6a71f1f93efd7837ff47a3c1c70e5809ec407ea82293fe60",
-        "hit": false
+        "key": "d6e2d95f54b8de838149c08cec023a7ef431dc9a10d3f180fd493bbe6c32b218",
+        "hit": true,
+        "reusedAt": "2026-10-26T09:20:21.239Z"
       }
     },
     {
@@ -69,7 +70,7 @@
       "source": {
         "branch": "main",
         "url": "https://git.yichamao.com/agent-platform/nuwax-im.git",
-        "commit": "50134c2517950b1d44fabeb69d2a8d51c38600cf"
+        "commit": "92ace8fabcbf1463732e6db6ade1817b0a4a5113"
       },
       "projectDir": "nuwax-im-web",
       "workspaceMode": "standalone",
@@ -77,7 +78,7 @@
         "VITE_IM_AUTH_MODE": "platform"
       },
       "adapter": {
-        "sha256": "222057f97ae289efd93d1dc4485de1aaa8fda6bb25b259ecc0dbbd67e86a3702",
+        "sha256": "59055a6ccca3aa21c1b5696cd342703748e5074f03cb4345396db8da0b1881d6",
         "files": [
           "adapter.json",
           "adapter.patch",
@@ -98,10 +99,11 @@
         "qiankun": "2.10.17-beta.0",
         "@tiny-codes/vite-plugin-qiankun": "2.4.0"
       },
-      "builtAt": "2026-10-25T11:45:20.646Z",
+      "builtAt": "2026-10-26T09:11:10.689Z",
       "cache": {
-        "key": "e91da5c704bd4d5e6e8b32a0dc49ed42e82a8cf91d9390626da4b77e4a449dd4",
-        "hit": false
+        "key": "e6d2c67a567d053e5941be3b1e028018a0b0e4c9215bfb2c9fa900d5a0042125",
+        "hit": true,
+        "reusedAt": "2026-10-26T09:20:21.615Z"
       }
     }
   ]
