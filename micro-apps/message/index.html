@@ -119,7 +119,7 @@
       }
     </script>
     <script crossorigin="">
-      import('' + '/micro-apps/message/assets/index-DPcSD5E5.js').then(() => {
+      import('' + '/micro-apps/message/assets/index-CEHQKJzn.js').then(() => {
         if (!window.__POWERED_BY_QIANKUN__) return;
         const hooks = window[`qiankunLifeCycles_nuwax-im-web`];
         if (hooks) {
@@ -133,7 +133,7 @@
         console.error(error);
         if (!window.__POWERED_BY_QIANKUN__) return;
         if (error.name === 'TypeError' && error.message && error.message.startsWith('Failed to fetch dynamically imported module:')) {
-          window.dispatchEvent(new CustomEvent('qiankun:fetchEntryError', { detail: { url: '/micro-apps/message/assets/index-DPcSD5E5.js', error } }));
+          window.dispatchEvent(new CustomEvent('qiankun:fetchEntryError', { detail: { url: '/micro-apps/message/assets/index-CEHQKJzn.js', error } }));
         } else {
           window.dispatchEvent(new CustomEvent('qiankun:runtimeError', { detail: { error } }));
         }
@@ -155,9 +155,15 @@
         }
       })();
     </script>
-    <link rel="stylesheet" crossorigin="" href="/micro-apps/message/assets/index-GT_UbUMM.css">
+    <link rel="stylesheet" crossorigin="" href="/micro-apps/message/assets/index-Bq1-OD5L.css">
   </head>
   <body>
+    <!--
+      来电铃声预取，与上游 index.html 的 #boot-ringtone 同一份元素。
+      ringtone.ts 按这个 id 接管它；放在 #root 外，避免宿主骨架和 React 挂载时把它清掉。
+      /micro-apps/message/ 由 Vite 换成微应用 base，不要写成绝对路径。
+    -->
+    <audio id="boot-ringtone" src="/micro-apps/message/ringtones/ringtone.m4a" preload="auto" loop="" aria-hidden="true"></audio>
     <div id="root" data-message-app-scope="">
       <div id="boot-skeleton" aria-hidden="true">
         <div class="chat-layout">
